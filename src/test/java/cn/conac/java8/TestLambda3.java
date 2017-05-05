@@ -31,7 +31,7 @@ public class TestLambda3 {
 	//Predicate<T> 断言型接口：
 	@Test
 	public void test4(){
-		List<String> list = Arrays.asList("Hello", "atguigu", "Lambda", "www", "ok");
+		List<String> list = Arrays.asList("Hello", "conac", "Lambda", "www", "ok");
 		List<String> strList = filterStr(list, (s) -> s.length() > 3);
 		
 		for (String str : strList) {
